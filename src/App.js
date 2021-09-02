@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="C">
+    <div className="App">
       <div
         className="flex items-center justify-center bg-gray-50"
         style={{ height: "100vh" }}
