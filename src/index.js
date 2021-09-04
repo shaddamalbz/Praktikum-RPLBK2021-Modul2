@@ -5,23 +5,26 @@ import App from "./App";
 
 import CardList from "./components/CardList";
 import Quotes from "./components/Quotes";
+import { InputText, InputNumber } from "./components/Input";
 
-import Gambar from "./assets/images/gambar1.jpg";
+import gambar1 from "./assets/images/gambar1.jpg";
 
 const quotes =
   "Disaat payung teduh ku dengar , disitu lah tugas-tugas terbabat abis";
+
+const newQuotes = "tes test tes";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <CardList
-      name="shaddam"
+      name="Orang"
       nim="211201181..."
       kelompok="0"
       isNameBold
-      image={Gambar}
+      image={gambar1}
     />
-    <Quotes author="Orang" quotes={quotes} />
+    <Quotes quotes={newQuotes} author="Orang" />
   </React.StrictMode>,
   document.getElementById("root")
 );
